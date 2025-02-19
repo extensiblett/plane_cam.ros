@@ -2,8 +2,7 @@
 
 EN
 
-This ```.sdf``` file has been edited for PX4-Gazebo-ROS simulation. The default model publishes only the GStreamer plugin. The files were modified because we needed a high-quality camera simulation (e.g., for computer vision). Now, you can capture high-quality video.
-
+This ```.sdf``` file has been edited for PX4-Gazebo-ROS simulation. The default model publishes only the GStreamer plugin. The files were modified because we needed a high-quality camera simulation (e.g., for computer vision). Now, you can capture high-quality video. Geotagged configuration for the ROS plugin. The plane_cam is configured to look forward.
 Important: After running the following commands, any changes made to the ```worlds``` and ```models``` folders will be lost, and the system will revert to its default state.
 
 ```
